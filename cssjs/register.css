@@ -1,0 +1,50 @@
+body{
+    background: linear-gradient(to right, gray ,gray, gray)
+}
+.container-register{
+    
+    width: 300px;
+    margin: 10vh auto 0 auto;
+    padding: 20px;
+    background-color: whitesmoke;
+    border-radius: 4px;
+    font-size: 12px;
+}
+#form h1{
+    color: #0f2027;
+    text-align: center;
+    font-size:25px;
+}
+#form button{
+    padding: 10px;
+    margin-top: 20px;
+    width:100%;
+    color:white;
+    background-color: darkcyan;
+    border:none;
+    border-radius: 4px;
+}
+.form-control{
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+}
+.form-control label{
+    font-size:15px;
+}
+
+.form-control input{
+    border:2px solid #f0f0f0;
+    border-radius: 4px;
+    display:block;
+    font-size:12px;
+    padding:10px;
+    width:100%;
+}
+
+#error{
+    color:red;
+    font-size: 15px;
+    height:13px;
+    font-weight:bold;
+}

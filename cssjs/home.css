@@ -1,0 +1,31 @@
+.right-home{
+    display:grid;
+    height:350px;
+    padding-block-start: 100px;
+    
+}
+
+
+
+.right-home li{
+    list-style-type: square;
+}
+
+.right-home a{
+    width:fit-content;
+    color:black;
+    text-decoration: none;
+}
+.right-home a:hover{
+    color:cyan;
+    text-decoration: underline;
+}
+.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
+  
+.right {
+    transform: rotate(-45deg);}
