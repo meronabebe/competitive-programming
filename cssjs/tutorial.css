@@ -1,0 +1,21 @@
+.container-tutorial{
+    display:grid;
+    gap:30px;
+    padding:30px 20px 70px 20px ;
+}
+.container-tutorial h2{
+    text-transform: capitalize;
+}
+.audio{
+    padding-top:30px;
+}
+.audio section{
+    padding-top:30px;
+    padding-left:10px;
+}
+.audio section p{
+    padding-left:30px;
+}
+
+
+
